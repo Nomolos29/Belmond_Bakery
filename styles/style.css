@@ -217,7 +217,6 @@ nav {
 
 .product-name {
     font-size: 18px;
-
 }
 .product-price {
     color: var(--btn-links);
@@ -265,7 +264,7 @@ nav {
     justify-content: space-between;
     gap: 20px;
 }
-.product-name {
+.single-product-name {
     font-size: 40px;
     line-height: 1.5em;
     font-weight: 400;
