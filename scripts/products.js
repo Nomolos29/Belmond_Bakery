@@ -5,7 +5,7 @@ const products = [
                 Birthday_Cakes: [
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -18,7 +18,7 @@ const products = [
                     },
                     {
                         productName: "Baby Boss Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-3.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-3.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -35,7 +35,7 @@ const products = [
                 Wedding_Cakes: [
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-5.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-5.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -48,7 +48,7 @@ const products = [
                     },
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-1.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-1.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -65,7 +65,7 @@ const products = [
                 Loaf_Cakes: [
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-4.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-4.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -82,7 +82,7 @@ const products = [
                 Fondants: [
                     {
                         productName: "Metal Belted Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-6.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-6.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 15000,
@@ -99,7 +99,7 @@ const products = [
                 Cupcakes: [
                     {
                         productName: "Super-Man Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-7.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-7.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -112,7 +112,7 @@ const products = [
                     },
                     {
                         productName: "Spider-Man Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-8.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-8.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
@@ -133,7 +133,7 @@ const products = [
                 Sliced_Bread: [
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-2.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-2.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 20000,
@@ -150,7 +150,7 @@ const products = [
                 Coconut_Bread: [
                     {
                         productName: "Metal Belted Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-6.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-6.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 15000,
@@ -167,7 +167,7 @@ const products = [
                 Bread_Rolls: [
                     {
                         productName: "TikTok Birthday Cake",
-                        image: "../Images/Belmond Bakery/Rectangle 124-4.png",
+                        image: "./Images/Belmond Bakery/Rectangle 124-4.png",
                         size: ["Small", "Medium", "Big"],
                         flavour: ["Vanilla", "Chocolate", "Red Velvet"],
                         price: 10000,
