@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    list-style: none;
+    overflow-x: hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--primary);
+}
+
+/* 
+-----------------------------
+========= VARIABLES =========
+-----------------------------
+*/
+:root {
+    /* **## Colors ##** */
+    --btn-links: #E97911;
+    --secondary: #fff;
+    --primary: #000;
+    --shadows: #00000015;
+    --notification: #FF0000;
+    --border: #e4e4e4;
+
+    /* **## Font Weights ##** */
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+
+    /* **## Font Size ##** */
+    --text-1: 20px;
+    --text-2: 24px;
+    --text-3: 18px;
+    --heading-1: 80px;
+    --heading-2: 70px;
+    --heading-3: 50px;
+    --heading-4: 40px;
+    --heading-5: 32px;
+    --heading-6: 30px;
+    --paragragh-1: 20px;
+
+    /*  **## Screen Widths ##** */
+    --max-full-screen: 1440px;
+    --full-screen: 88%;
+}
+
+.flex {
+    display: flex;
+}
+.grid {
+    display: grid;
+}
+.column {
+    flex-direction: column;
+}
+.nav-link {
+    font-size: var(--paragragh-1);
+    color: var(--primary);
+}
+.uil {
+    font-size: 34px;
+}
+.nav-link:hover,
+.uil,
+.active,
+.product-btn-2 {
+    color: var(--btn-links);
+}
+.product-btn,
+.product-btn-2 {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+.product-btn {
+    border: 1px solid var(--primary);
+    width: 65%;
+}
+.product-btn-2 {
+    border: 1px solid var(--btn-links);
+}
+.product-btn-2:hover {
+    background-color: var(--btn-links);
+    color: var(--secondary);
+}
+/* 
+-----------------------------
+========= HOME PAGE =========
+-----------------------------
+*/
+/* *****HEADER****** */
+.header {
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary);
+    box-shadow: 0px 1px 5px var(--shadows);
+    margin-bottom: 5px;
+}
+.header-container {
+    max-width: var(--max-full-screen);
+    width: 90%;
+    height: 95%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    /* width: 13%; */
+    height: 97%;
+}
+nav {
+    width: 50%;
+    justify-content: space-between;
+}
+.cart-section {
+    width: 15%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-icon {
+    position: relative;
+    height: 100%;
+    width: 22%;
+    align-items: center;
+}
+.uil-shopping-cart {
+    cursor: pointer;
+    position: relative;
+}
+.cart-notification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+    top: 23%;
+    font-weight: var(--semi-bold);
+    right: 0%;
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    color: var(--secondary);
+    background-color: var(--notification);
+}
+/* 
+-----------------------------
+========= SHOP PAGE =========
+-----------------------------
+*/
+.shop {
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.shop-container {
+    max-width: var(--max-full-screen);
+    width: var(--full-screen);
+    padding: 20px 0px;
+}
+.shop-title {
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 0px;
+    border-bottom: 2px solid var(--border);
+}
+.shop-products-container {
+    width: 100%;
+    padding: 40px 0px;
+}
+.shop-title p{
+    font-size: var(--heading-4);
+    font-weight: var(--regular);
+}
+.side-bar {
+    flex: 1;
+    height: auto;
+    padding-right: 40px;
+}
+.shop-products {
+    flex: 4;
+    min-height: 100vh;
+    padding-left: 40px;
+    border-left: 1px solid var(--border);
+}
+.products-container {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 25px 30px;
+    padding-bottom: 50px;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 31%;
+    flex: auto;
+    height: 400px;
+    padding: 5px 5px 15px 5px;
+    text-align: center;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+}
+.productImage {
+    width: 100%;
+    height: 260px;
+    padding-bottom: 5px;
+    background-size: cover;
+}
+
+.product-name {
+    font-size: 18px;
+
+}
+.product-price {
+    color: var(--btn-links);
+    font-size: 20px;
+}
+.clicked {
+    border-color: var(--btn-links);
+    background-color: var(--btn-links);
+    color: var(--secondary);
+    transition: all ease-in 200ms;
+}
+/* 
+---------------------------------------
+========= SINGLE PRODUCT PAGE =========
+---------------------------------------
+*/
+.product-details {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    width: 100vw;
+}
+
+.product-details-container {
+    max-width: var(--max-full-screen);
+    width: var(--full-screen);
+}
+
+.product-short-detail {
+    width: auto;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.product-image {
+    background-image: url('../../Images/Belmond Bakery/Rectangle 14.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 47%;
+    height: 660px;
+}
+
+.product-detail {
+    width: 47%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.product-name {
+    font-size: 40px;
+    line-height: 1.5em;
+    font-weight: 400;
+}
+.product-price {
+    font-size: 28px;
+    font-weight: 500;
+}
+.short-description {
+    font-size: 20px;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+}
+.product-detail label {
+    font-size: 20px;
+}
+.product-detail select {
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #d2d2d2;
+    font-size: 18px;
+}
+.cart-count {
+    width: 55%;
+    justify-content: space-between;
+}
+.cart-count input[type="number"] {
+    padding: 20px;
+    width: 80px;
+    font-size: 18px;
+    margin: auto;
+    border: 1px solid #d2d2d2;
+}
+.cart-count button {
+    background-color: var(--btn-links);
+    border: none;
+    color: #fff;
+}

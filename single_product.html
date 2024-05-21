@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nomolos29">
+    <title>Single Product</title>
+    <link rel="shortcut icon" href="/Images/Belmond Bakery/belmond cakes logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <script src="./scripts/products.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="header" class="header flex">
+            <div class="header-container flex">
+                <div class="logo">
+                    <img src="../Images/Belmond Bakery/belmond cakes logo 1.png" alt="logo">
+                </div>
+                <nav class="flex">
+                    <a href="./index.html" class="nav-link">Home</a>
+                    <a href="#" class="nav-link">About Us</a>
+                    <a href="./shop.html" class="nav-link">Shop</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Career</a>
+                    <a href="#" class="nav-link">Contact Us</a>
+                </nav>
+                <div class="cart-section flex">
+                    <a href="#" class="nav-link">My Account</a>
+                    <a href="./cart.html" class="cart-icon flex">
+                        <i class="uil uil-shopping-cart"></i>
+                        <div class="cart-notification">0</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section>
+        <div class="product-details">
+            <div class="product-details-container flex column">
+                <section class="product-short-detail flex">
+                    <div class="product-image">
+                        <!-- <img src="../Images/Belmond Bakery/Rectangle 14.png" alt="product Image"> -->
+                    </div>
+                    <div class="product-detail flex column">
+                        <h5 class="single-product-name">3 Steps Gigantic Birthday Cake</h5>
+                        <p class="product-price">₦10,000. 00</p>
+                        <p class="short-description">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra,
+                        </p>
+                        <form>
+                            <div class="flex column">
+                                <label for="size">Size</label>
+                                <select name="size" id="">
+                                    <option>Small</option>
+                                    <option>Medium</option>
+                                    <option>Big</option>
+                                </select>
+                            </div>
+                            <div class="flex column">
+                                <label for="flavour">Flavour</label>
+                                <select name="flavour" id="">
+                                    <option>Small</option>
+                                    <option>Medium</option>
+                                    <option>Big</option>
+                                </select>
+                            </div>
+                            <div class="cart-count flex">
+                                <input type="number" name="orderAmount" id="orderAmount" min="1" value="1"/>
+                                <button class="product-btn">Add To Cart</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
